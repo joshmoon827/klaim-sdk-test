@@ -1,4 +1,4 @@
-import customAxios from './axios';
+import { customAxios } from './axios';
 
 // 특정 유저 정보 조회
 export async function getUser(apiKey: string, userId: string) {

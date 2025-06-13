@@ -1,4 +1,4 @@
-import customAxios from './axios';
+import { customAxios } from './axios';
 
 // API 키 정보 조회
 export async function getApiKey(apiKey: string) {
